@@ -22,4 +22,5 @@ Copula_Networkinference.py | <ul><li>Computes KS-Distances between a Tf and a ge
 Merge_bootstrapps.py | Merges multiple Bootstrapps into one file and computes the mean squared error
 Filtering.py | Filters the result based on error and assigns p-values to the KS-Distances (if a file with random KS-Distances is provided)
 shufflegeneexpressiondata.py | <ul><li>shuffles the entire data</li><li>shuffles the entrie data except for the transcription factors</li></ul>
-                            
+PlottingFunctions.py | <ul><li>plot all KS-Distances for edges starting from a Tf</li><li>plot the gene expression data of a gene</li><li>plot the distribution of errors</li><li>plot the distribution of p-values</li><li>plot the KS-Distances for edges starting from a Tf against the same edges from a differnt file</li><li>plot the copula for a Tf/gene pair in each cluster</li></ul>
+PlottingVenn.py | Compare the edges most likely to be in the network against a gold standard to validate the result
